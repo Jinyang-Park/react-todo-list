@@ -1,0 +1,117 @@
+/*container*/
+.container {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+}
+.todo_list {
+  display: flex;
+  justify-content: space-between;
+}
+/*Main*/
+.main_container {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+/*Header, Footer*/
+.title_header,
+.title_footer {
+  text-align: center;
+  font-size: 8rem;
+  font-weight: 600;
+  text-shadow: -5px -5px 0 #bc13fe, 5px -5px 0 #bc13fe, -5px 5px 0 #bc13fe, 5px 5px 0 #bc13fe;
+  letter-spacing: 1rem;
+  padding: 30px;
+}
+
+/*Input*/
+.input_container {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  width: 700px;
+  border-radius: 1.5rem;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fbff00, 0 0 0.8rem #fbff00, 0 0 2.8rem #fbff00, inset 0 0 1.3rem #fbff00;
+}
+
+.input_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input_label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+/*Input placeholder 변경*/
+.input_container input {
+  width: 30%;
+  height: 30px;
+  outline: 0px;
+  border-radius: 4px;
+  border: 3px solid #fbff00;
+  background-color: rgb(235, 239, 178);
+  font-size: 1rem;
+}
+.submit_btn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 1rem;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fbff00, 0 0 0.8rem #fbff00, 0 0 2.8rem #fbff00, inset 0 0 1.3rem #fbff00;
+}
+.submit_btn:hover {
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #1ed760, 0 0 0.8rem #1ed760, 0 0 2.8rem #1ed760, inset 0 0 1.3rem #1ed760;
+}
+/*TodoList*/
+.todo_list_container {
+  width: 45%;
+}
+.todo_list_title {
+  /* display: inline-block; */
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px 30px;
+}
+/*Todo*/
+.todo_container {
+  list-style: none;
+  padding: 2rem 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00d5ff, 0 0 0.8rem #00d5ff, 0 0 2.8rem #00d5ff, inset 0 0 1.3rem #00d5ff;
+}
+.todo_title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+.todo_contents {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #fff;
+}
+.buttons {
+  text-align: right;
+}
+.todo_btns {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 1rem;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00d5ff, 0 0 0.8rem #00d5ff, 0 0 2.8rem #00d5ff, inset 0 0 1.3rem #00d5ff;
+}
+.todo_btns:hover {
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #1ed760, 0 0 0.8rem #1ed760, 0 0 2.8rem #1ed760, inset 0 0 1.3rem #1ed760;
+}
